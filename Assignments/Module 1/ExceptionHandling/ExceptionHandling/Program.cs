@@ -37,12 +37,12 @@ namespace ExceptionHandling
                 Console.WriteLine("\nFormatException: " + e.Message);
             }
 
-            catch (DivideByZeroException e)
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("\nDivideByZeroException: Cannot divide by zero.");
             }
 
-            catch (ArgumentOutOfRangeException e)
+            catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("\nArgumentOutofRangeException: Numbers are out of range.");
             }
